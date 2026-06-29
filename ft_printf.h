@@ -6,6 +6,7 @@
 # include <unistd.h>
 # include <string.h>
 
-int	ft_printf(const char *fstr, ...);
+int		ft_printf(const char *fstr, ...);
+void	handle_format(const char c, va_list list, int *count);
 
 #endif
